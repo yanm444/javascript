@@ -90,10 +90,10 @@ let school1Details = ["karnali, seol,", 1670];
 // object concept..
 
 //*object
-//  let <object_name> ={
-//        <key>:<value>,
+//  let <object_name> = {
+//        <key> : <value> ,
 //         <property> : <value> ,
-//            <attribute> :<value> ,
+//            <attribute> : <value> ,
 // }
 
 let school2Details = {
@@ -103,3 +103,29 @@ let school2Details = {
 }
 console.log(school2Details);
 
+let room1 = {
+   color: "white",
+   doorcount: 1 ,
+   dimensions: {
+      length:{
+         value: 10,
+         unit: "Meter",
+      },
+      width:{
+            value:30,
+            unit: "feet",
+         },         
+      },
+   };
+
+   let courses ={
+      class:"web design",
+      html:"creating web",
+      css: " designing",
+      javascript: "running ",
+      classDuration:"1 hour",
+   };
+
+   // web design class ma create garna design garna sikayeko xa
+
+   console.log(courses.class + " class ma " + courses.html + " create garna " + courses.css + " design garna " + courses.javascript + " sikayeko " + courses.classDuration + " xa ");
