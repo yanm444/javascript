@@ -129,3 +129,45 @@ let room1 = {
    // web design class ma create garna design garna sikayeko xa
 
    console.log(courses.class + " class ma " + courses.html + " create garna " + courses.css + " design garna " + courses.javascript + " sikayeko " + courses.classDuration + " xa ");
+
+   let brand ={
+      classic:"addidas",
+      new:"louis vuitton",
+      old:"nike",
+   };
+
+   // brands ko bare
+
+   console.log(brand.classic + " brands " + brand.new + " ko " + brand.old + " bare ");
+
+   let footballPlayer ="ronaldo";
+   let basketballPlayer ="kobe";
+   let volleyballPlayer ="miles";
+
+   let player1Details =["ronaldo", "kobe ", "miles"];
+   
+   console.log("best player",player1Details[0]);
+   console.log("best player",player1Details[1]);
+   console.log("best player",player1Details[2]);
+
+   let player2Details ={
+      footballPlayer:"ronaldo",
+      basketballPlayer:"kobe",
+      volleyballPlayer:"miles",
+   };
+
+   console.log(player2Details);
+
+let colors={
+   color:"white",
+   hexValue:"#00000",
+};
+
+// white color ko hexvalue chai #00000
+
+console.log(colors.color + " color ko hexvalue ");
+
+//ternary operator
+
+console.log(`${colors.color} color ko hexvalue `);
+
