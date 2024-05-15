@@ -171,3 +171,32 @@ console.log(colors.color + " color ko hexvalue ");
 
 console.log(`${colors.color} color ko hexvalue `);
 
+let person = {
+   name:"bob",
+}
+
+person.age =131;
+
+console.log(person);
+
+let persons =["shaq","lebron"];
+
+persons[0] ={
+   address:"los angelos",
+   weight:77,
+};
+
+persons[2] ="kobe";
+
+console.log(persons);
+
+let person0 = {
+   name:"daniel",
+   age:"24",
+   hobbies:["playing" , "wokking" , "travelling"],
+};
+//daniel ko age 24 ho ra hobby playing working travelling ho
+
+console.log(`${person0.name} ko age ${person0.age} ho ra hobby ${person0.hobbies} ho `);
+
+
