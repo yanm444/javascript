@@ -199,4 +199,40 @@ let person0 = {
 
 console.log(`${person0.name} ko age ${person0.age} ho ra hobby ${person0.hobbies} ho `);
 
+console.log("sum of 1 + 1 =", 1 + 1 );
+console.log("sum of 8 + 8 =", 8 + 8 );
+console.log("sum of 6 + 1 =", 6 + 1 );
+
+// DRY donot repeat yourself
+// Function
+
+// function <functionname=>{
+//  task haru lekhna   
+// }
+
+//parameter
+
+function sum(num1, num2) {
+   //let num1=1
+   console.log(`sum of ${num1} + ${num2} = ${num1 + num2}`);
+} 
+
+//function call chai function ko name dine
+
+sum();
+sum(1,2);
+sum(9,81);
+sum(2,0);
+
+function calculateRectangleArea(length, width){
+
+   let area=length*width;
+   console.log("area =", area)
+
+}
+
+let length =10;
+let width =14;
+
+calculateRectangleArea(length,width);
 
