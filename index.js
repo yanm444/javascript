@@ -236,3 +236,38 @@ let width =14;
 
 calculateRectangleArea(length,width);
 
+let db_users = [{name: "name", email: "email"},"password"];
+
+function signupUsers(name, email) {
+   console.log("add user to ad_user");
+   let user ={
+      name: name,
+      email:email,
+   }
+   db_users[db_users.length] = user;
+
+   db_users.push(user);
+
+   console.log(db_users);
+}
+signupUsers("santosh", "santosh@gmail.com" );
+signupUsers("yan", "yan0@gmail.com");
+
+// operator
+
+console.log(1+2); //arithmetic operator
+console.log(1*3);
+console.log(10%13); //modulus
+
+let number =100
+number = number +10 ;
+number+= 30 ;
+console.log(number);
+
+//post increment
+
+let agee = 21;
+console.log(agee++); // post increment
+console.log(agee);
+
+console.log(++agee); //pre increment
