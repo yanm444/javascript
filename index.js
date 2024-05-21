@@ -271,3 +271,28 @@ console.log(agee++); // post increment
 console.log(agee);
 
 console.log(++agee); //pre increment
+
+//logical operator
+
+//&&
+//or ||
+//not !
+
+let isMarried = false ;
+if (!isMarried){
+console.log("marry");
+}else {
+   console.log("nonmarry");
+}
+
+hisAge = 19;
+hasConsent = false ;
+let isBachealorCompleted = true;
+
+
+if ((hisAge >=18 && hasConsent) || isBachealorCompleted ) {
+   console.log("he can marry");
+ } else {
+   console.log("he cannot marry");
+}
+
