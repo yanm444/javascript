@@ -296,3 +296,54 @@ if ((hisAge >=18 && hasConsent) || isBachealorCompleted ) {
    console.log("he cannot marry");
 }
 
+let gym = {
+   id:1,
+   html:false,
+};
+
+let gym2 = {
+   id:2,
+   css:true,
+};
+
+let gym3 = {
+   id:3,
+   js:false,
+};
+
+if (gym.html){
+   console.log("html is completed");
+} else {
+   console.log("html is not completed");
+};
+
+if (gym2.css){
+   console.log("css is completed");
+} else {
+   console.log("css is not completed");
+};
+
+if (gym3.js){
+   console.log("js is completed");
+} else {
+   console.log("js is not completed");
+};
+
+//wap to print from 0 to 1000
+
+ //loop
+ //for loop
+ //for loop syntax
+    // for (initialvalue ; condition ;modifier/incrementer wich will change the value){        
+//}
+
+for (let count = 0; count <= 1000; count++) {
+   console.log(count);
+}
+
+console.log("start loop");
+
+for (let count = 0 ; count <=4;count ++){
+   console.log(count)
+};
+console.log("end looop");
