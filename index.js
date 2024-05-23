@@ -347,3 +347,8 @@ for (let count = 0 ; count <=4;count ++){
    console.log(count)
 };
 console.log("end looop");
+
+let sale = "sale sale"
+for (let count = 0; count <=1000; count++) {
+   console.log(sale)
+}
