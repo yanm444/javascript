@@ -30,6 +30,33 @@ for (let count = 0; count <= 1000; count++) {
     }
  }
 
+
+
  for (let index = 1; index<=10;index++){
     console.log(`5 * ${index} = ${index *5}`);
  }
+
+ function findMultiplicationTable(){
+ for (let index = 1; index<=10;index++) {
+   console.log(`4 * ${index} = ${index *4}`);
+ }
+}
+
+function findMultiplicationTable(number, startFrom, endAt){
+   for (startFrom; startFrom<= endAt; startFrom++){
+      console.log(`${number} * ${startFrom} =${number * startFrom}`);
+   }
+}
+
+ findMultiplicationTable(10, 6, 8);
+findMultiplicationTable(10, 1, 10);
+
+// Arrow function ......................................................................................................................
+
+//function add(a, b) {
+  // console.log(a + b);
+//}
+//add(9 , 10);
+
+const add =(a , b) => console.log(a + b);
+add(5 , 10);
