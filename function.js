@@ -60,3 +60,29 @@ findMultiplicationTable(10, 1, 10);
 
 const add =(a , b) => console.log(a + b);
 add(5 , 10);
+
+const multi =(a , b) => console.log(a * b);
+multi(2 , 3);
+
+const divi =(a , b) => console.log(a / b);
+divi(888 , 8);
+
+function sum(a ,b) {
+   return a + b;
+}
+let result = sum(1, 9);
+console.log(result);
+
+const hashPasword =(password) => {return password + Date.now};
+
+let db_users =[];
+const signupUsers =(name, email, password) => {
+   db_users.push({
+      name:name,
+      email:email,
+      password: hashPassword(password),
+   });
+};
+
+signupUsers("name", "hellno@gmail.com","parang678");
+console.log(db_users);
