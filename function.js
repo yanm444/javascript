@@ -78,11 +78,13 @@ const hashPasword =(password) => {return password + Date.now};
 let db_users =[];
 const signupUsers =(name, email, password) => {
    db_users.push({
-      name:name,
-      email:email,
-      password: hashPassword(password),
+      name: name,
+      email: email,
+      password: hashPasword(password)
    });
 };
 
 signupUsers("name", "hellno@gmail.com","parang678");
 console.log(db_users);
+
+
