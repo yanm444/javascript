@@ -87,4 +87,29 @@ const signupUsers =(name, email, password) => {
 signupUsers("name", "hellno@gmail.com","parang678");
 console.log(db_users);
 
+function
+
+functioncountryCode(searchTerm){
+   for(let index = 0; index<countries.length;index++){
+      //"check if name matches.."
+      let country = countries[index]
+      if(country.name == searchTerm){
+         console.log("code is",country.code,"on index",index)
+      }
+      console.log(index)
+   }
+}
+
+function loginUsers(email , password) {
+   for (let index = 0;index <db_users.length; index++)
+      if(
+         db_users[index].email == email &&
+         db_users[index].password == password
+      )  {
+         console.log("login successfull");
+      }else{
+         console.log("login successfull")
+}
+}
+
 
